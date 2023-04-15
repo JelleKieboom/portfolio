@@ -1,4 +1,4 @@
-let projects = ["../assets/donut.png", "../assets/skillit.png", "../assets/renatus.png"]; //add image of 1.3
+let projects = ["assets/donut.png", "assets/skillit.png", "assets/renatus.png"]; //add image of 1.3
 let projectIndex = 0;
 
 function changeProject() {
