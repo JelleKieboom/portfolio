@@ -16,7 +16,7 @@ function changeProject() {
 setInterval(changeProject, 4000);
 
 
-let art = ["../assets/necrozma.jpg", "../assets/garden.jpg", "../assets/hk41thumbnail.jpg", "../assets/hk40.png", "../assets/amongusthumbnail2.jpg"]; //add images of radiance, amongus2, m0n3t and sableye here 
+let art = ["assets/necrozma.jpg", "assets/garden.jpg", "assets/hk41thumbnail.jpg", "assets/hk40.png", "assets/amongusthumbnail2.jpg"]; //add images of radiance, amongus2, m0n3t and sableye here 
 let artIndex = 0;
 
 function changeArt() {
