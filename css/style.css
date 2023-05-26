@@ -10,6 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 body{
     font-family: 'Play', sans-serif;
+    color: white;
 }
 
 img:hover {
@@ -30,7 +31,7 @@ video:hover {
   
   .menu-icon {
     padding: 20px;
-    background: rgb(76, 82, 117);
+    background: white;
     border-radius: 10px;
   }
   
@@ -39,7 +40,7 @@ video:hover {
     width: 1.5vw;
     height: 3px;
     margin-bottom: 4px;
-    background-color: white;
+    background-color: black;
   }
   
   .menu-items {
@@ -49,7 +50,7 @@ video:hover {
     left: -20vw;
     width: 20vw;
     height: 100%;
-    background-color: rgb(76, 82, 117);
+    background-color: white;
     padding: 3vh;
     padding-left: 10vh;
     transition: transform 0.3s ease-in-out;
@@ -64,12 +65,12 @@ video:hover {
   
   .menu-items li a {
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 200ms ease-in-out all;
   }
 
   .menu-items li a:hover {
-    color: rgb(190, 243, 231);
+    color: rgb(48, 18, 119);
     font-size: 1.05em;
   }
   
@@ -78,7 +79,8 @@ video:hover {
   }
 
 #homepage {
-    background: rgb(190, 243, 231);
+  background-image: url(../assets/spacebg.png);
+  background-size: cover;
 }
 
 h1 {
@@ -109,143 +111,15 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.7em;
     font-weight: 400;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-.bigcontainer {
-    width: 80vw;
-    margin: 0 auto;
-    margin-top: 10vh;
-}
-
-.homecontainer {
-    float: left; 
-    width: 19vw;
-    height: 35vh;
-    margin-left: 7vw;
-    padding-top: 3vh;
-    text-align: center;
-    font-size: 1.4em;
-    border-radius: 10px;
-    transition: 400ms ease-in-out all;
-    position: relative;
-}
-
-.homecontainer:hover {
-  background: rgb(136, 230, 209);
-  font-size: 1.45em;
-  width: 20vw;
-  height: 36vh;
-}
-
-#homecontainer1 {
-  width: 23vw;
-}
-
-#homecontainer1:hover {
-  width: 24vw;
-}
-
-.homeimage {
-    width: 16vw;
-    border-radius: 10px;
-    margin-top: 2vh;
-    transition: 400ms ease-in-out;
-}
-
-.homeimage:hover {
-    width: 19vw;
-}
-
-#homeimage1 {
-  width: 21vw;
-  transition: opacity 0s ease-in-out, width 400ms ease-in-out;
-}
-
-#homeimage1:hover {
-  width: 23vw;
-}
-
-#homeimage2 {
-  transition: opacity 0s ease-in-out, width 400ms ease-in-out;
-}
-
-.homeimage3 {
-    width: 10vw;
-    position: absolute;
-    left: 5vw;
-}
-
-.homeimage3:hover {
-    width: 10vw;
-}
-
-#homeimage3 {
-    opacity: 1; 
-}
-
-#homeimage3:hover {
-    opacity: 0;
-}
-
-.projectlink {
-    margin-left: 0;
-}
-
-/* About page */
-
-#aboutpage {
-    background: rgb(190, 243, 231);
-}
-
-#abouth1 {
-  margin-top: 0;
-}
-
-#abouth2 {
-  margin-top: 3vh;
-  margin-bottom: 8vh;
-}
-
-.aboutimg {
-  width: 20vw; 
-  position: absolute;
-  margin-left: 10vw;
-  border-radius: 10px;
-}
-
-.aboutstyle {
-  opacity: 0;
-  transition: opacity 500ms ease-in-out;
-}
-
-.aboutstyle:hover {
-  opacity: 1;
-}
-
-#aboutp {
-  width: 50vw;
-  margin-left: 35vw;
-  font-size: 1.35em;
-  line-height: 1.15em;
-  text-align: center;
-}
-
-.mailme {
-  position: absolute;
-  margin-left: 35vw;
-  margin-top: 3vh;
-  font-size: 1.5em;
-  color: rgb(76, 82, 117);
-  font-weight: 600;
+    color: white;
 }
 
 /* Art page */ 
@@ -278,10 +152,6 @@ a {
   font-size: 1.35em;
   line-height: 1.15em;
   text-align: center;
-}
-
-.arth2 {
-  margin-top: 8vh;
 }
 
 .artcontainer {
@@ -326,13 +196,6 @@ a {
 
 .textlink:hover {
   font-size: 1.1em;
-}
-
-.physical {
-  max-height: 33vh;
-  margin-right: 2vw; 
-  margin-bottom: 3vh;
-  border-radius: 10px;
 }
 
 .assignment {
@@ -397,7 +260,7 @@ a {
 
 .projectsh2 {
   margin-bottom: 2vh;
-  margin-top: 10vh;
+  font-weight: 600;
 }
 
 .projectscontainer {
@@ -431,11 +294,325 @@ a {
   margin-top: 5vh;
 }
 
+/* New website design stuff */ 
+
+/* Home page */
+
+.homeplanet {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 2px 2px #effff5;
+  position: absolute;
+}
+
+.overlayplanet {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.homeplanet:hover {
+  transform: scale(1.05);
+}
+
+.homeplanet:hover .overlayplanet {
+  box-shadow: 0px 0px 5px 5px #effff5;
+  opacity: 1;
+}
+
+.planet-game {
+  width: 10vw;
+  height: 10vw;
+  top: 25vh;
+  left: 4vw;
+  background-image: url(../assets/newgameplus.png);
+}
+
+.overlay-game {
+  height: 10vw; 
+  width: 10vw; 
+  padding-top: 4.2vw;
+}
+
+.planet-skillit {
+  background-image: url(../assets/skillit.png);
+  background-position: 0px -15px;
+  width: 12vw; 
+  height: 12vw; 
+  top: 70vh;
+  left: 30vw;
+}
+
+.overlay-skillit {
+  height: 12vw; 
+  width: 12vw; 
+  padding-top: 5.7vw;
+}
+
+.planet-light {
+  background-image: url(../assets/necrozma.jpg);
+  width: 15vw; 
+  height: 15vw; 
+  top: 40vh;
+  left: 16vw;
+}
+
+.overlay-light {
+  height: 15vw; 
+  width: 15vw; 
+  padding-top: 7.2vw;
+}
+
+.planet-renatus {
+  background-image: url(../assets/renatus.png);
+  width: 13vw; 
+  height: 13vw; 
+  top: 69vh;
+  left: 3vw;
+}
+
+.overlay-renatus {
+  height: 13vw; 
+  width: 13vw; 
+  padding-top: 6.2vw;
+}
+
+.planet-about {
+  background-image: url(../assets/mereg.jpeg);
+  width: 11vw; 
+  height: 11vw; 
+  top: 50vh;
+  left: 44.5vw;
+}
+
+.overlay-about {
+  height: 11vw; 
+  width: 11vw; 
+  padding-top: 5.2vw;
+}
+
+.planet-blender {
+  background-image: url(../assets/donut.png);
+  width: 10vw; 
+  height: 10vw; 
+  top: 22vh;
+  left: 80vw;
+}
+
+.overlay-blender {
+  height: 10vw; 
+  width: 10vw; 
+  padding-top: 4.2vw;
+}
+
+.planet-digiart {
+  background-image: url(../assets/hk41thumbnail.jpg);
+  width: 14vw; 
+  height: 14vw; 
+  top: 67vh;
+  left: 78vw;
+}
+
+.overlay-digiart {
+  height: 14vw; 
+  width: 14vw; 
+  padding-top: 6.2vw;
+}
+
+.planet-physart {
+  background-image: url(../assets/sableye.jpg);
+  width: 11vw; 
+  height: 11vw; 
+  top: 43vh;
+  left: 68vw;
+}
+
+.overlay-physart {
+  height: 11vw; 
+  width: 11vw; 
+  padding-top: 5.2vw;
+}
+
+.planet-oldart {
+  background-image: url(../assets/garden.jpg);
+  width: 9vw; 
+  height: 9vw; 
+  top: 74vh;
+  left: 60vw;
+}
+
+.overlay-oldart {
+  height: 9vw; 
+  width: 9vw; 
+  padding-top: 4.2vw;
+}
+
+/* Light */
+
+#lightpage {
+  background-image: url(../assets/spacebg.png);
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-blend-mode: multiply;
+}
+
+/* Renatus */
+
+#renatuspage {
+  background-image: url(../assets/renatusbg.png);
+  color: black;
+}
+
+.renatusimg {
+  transition: scale 0.3s ease-in-out;
+  box-shadow: 0px 0px 2px 2px #6d6d6d;
+}
+
+.renatusimg:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 5px 5px #6d6d6d;
+}
+
+/* Skillit */ 
+
+#skillitpage {
+  background: #FFCCCC;
+  color: black;
+}
+
+.fakenav {
+  background: white; 
+  width: 100vw;
+  position: absolute; 
+  top: 0;
+  height: 10vh;
+}
+
+#skillitpage .projectsh2 {
+  margin-top: 15vh;
+}
+
 .skillitimg {
   width: 35vw;
   float: left;
   border-radius: 10px;
   margin-top: 5vh;
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.skillitimg:hover {
+  scale: 1.05;
+}
+
+.skillitimg:last-child {
+  margin-bottom: 5vh;
+}
+
+/* Immersion */ 
+
+#immersionpage {
+  background: #708AC7;
+  color: #8BDAF9;
+}
+
+.immersionnav {
+  background: #3F0D42;
+  border: #8BDAF9 solid 3px;
+  width: 100vw;
+  position: absolute; 
+  top: 0;
+  height: 11vh;
+}
+
+#immersionpage .projectsh2 {
+  padding-top: 3vh;
+}
+
+.immersionoverlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 80vw;
+  margin: 15vh auto 0;
+  display: block; 
+  overflow: auto;
+  padding-bottom: 5vh;
+}
+
+.immersionlink {
+  color: #cdf1ff;
+}
+
+.immersionimg {
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.immersionimg:hover {
+  scale: 1.05;
+}
+
+/* About */
+
+#aboutpage {
+  background: rgb(190, 243, 231);
+  color: black;
+}
+
+#abouth1 {
+margin-top: 0;
+}
+
+#abouth2 {
+margin-top: 3vh;
+margin-bottom: 8vh;
+}
+
+.aboutimg {
+width: 20vw; 
+position: absolute;
+margin-left: 10vw;
+border-radius: 10px;
+}
+
+.aboutstyle {
+opacity: 0;
+transition: opacity 500ms ease-in-out;
+}
+
+.aboutstyle:hover {
+opacity: 1;
+}
+
+#aboutp {
+width: 50vw;
+margin-left: 35vw;
+font-size: 1.35em;
+line-height: 1.15em;
+text-align: center;
+}
+
+.mailme {
+position: absolute;
+margin-left: 55vw;
+margin-top: 3vh;
+font-size: 1.5em;
+color: rgb(76, 82, 117);
+font-weight: 600;
+transition: scale 0.3s ease-in-out;
+}
+
+.mailme:hover { 
+  scale: 1.05;
+}
+
+/* Blender */ 
+
+#blenderpage {
+  background-image: url(../assets/sprinklebg.png);
+  color: black;
 }
 
 .blendervid {
@@ -445,9 +622,87 @@ a {
   object-fit: contain;
   margin-top: 3vw;
   margin-bottom: 3vw;
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.blendervid:hover {
+  scale: 1.05;
 }
 
 .blendervid:first-of-type {
   margin-right: 10vw;
-  margin-bottom: 0;
+  margin-bottom: 10vh;
+}
+
+.blenderp {
+  margin-bottom: 20vh;
+}
+
+.blenderlink {
+  color: rgb(76, 82, 117);
+  font-weight: 600;
+  transition: font-size 100ms ease-in-out;
+}
+
+.blenderlink:hover {
+  font-size: 1.1em;
+}
+
+/* Digital art */
+
+.arth2 {
+  font-weight: 600;
+}
+
+#digipage {
+  background-image: url(../assets/digiartbg.png); 
+}
+
+.digiimg {
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.digiimg:hover {
+  scale: 1.05;
+}
+
+/* Physical art */ 
+
+#phypage {
+  background-image: url(../assets/cavebg.png);
+}
+
+.physical {
+  max-height: 33vh;
+  margin-right: 2vw; 
+  margin-bottom: 3vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.physical:hover {
+  scale: 1.05;
+}
+
+/* Old art */ 
+
+#oldpage {
+  background-image: url(../assets/sketchbg.png);
+  color: black;
+}
+
+.oldimg {
+  box-shadow: 0px 0px 2px 2px #effff5;
+  transition: scale 0.3s ease-in-out;
+}
+
+.oldimg:last-child {
+  margin-bottom: 5vh;
+}
+
+.oldimg:hover {
+  scale: 1.05;
 }
