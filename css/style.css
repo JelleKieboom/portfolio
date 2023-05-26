@@ -79,7 +79,7 @@ video:hover {
   }
 
 #homepage {
-  background-image: url(../assets/spacebg.png);
+  background-image: url(assets/spacebg.png);
   background-size: cover;
 }
 
@@ -329,7 +329,7 @@ a {
   height: 10vw;
   top: 25vh;
   left: 4vw;
-  background-image: url(../assets/newgameplus.png);
+  background-image: url(assets/newgameplus.png);
 }
 
 .overlay-game {
@@ -339,7 +339,7 @@ a {
 }
 
 .planet-skillit {
-  background-image: url(../assets/skillit.png);
+  background-image: url(assets/skillit.png);
   background-position: 0px -15px;
   width: 12vw; 
   height: 12vw; 
@@ -354,7 +354,7 @@ a {
 }
 
 .planet-light {
-  background-image: url(../assets/necrozma.jpg);
+  background-image: url(assets/necrozma.jpg);
   width: 15vw; 
   height: 15vw; 
   top: 40vh;
@@ -368,7 +368,7 @@ a {
 }
 
 .planet-renatus {
-  background-image: url(../assets/renatus.png);
+  background-image: url(assets/renatus.png);
   width: 13vw; 
   height: 13vw; 
   top: 69vh;
@@ -382,7 +382,7 @@ a {
 }
 
 .planet-about {
-  background-image: url(../assets/mereg.jpeg);
+  background-image: url(assets/mereg.jpeg);
   width: 11vw; 
   height: 11vw; 
   top: 50vh;
@@ -396,7 +396,7 @@ a {
 }
 
 .planet-blender {
-  background-image: url(../assets/donut.png);
+  background-image: url(assets/donut.png);
   width: 10vw; 
   height: 10vw; 
   top: 22vh;
@@ -410,7 +410,7 @@ a {
 }
 
 .planet-digiart {
-  background-image: url(../assets/hk41thumbnail.jpg);
+  background-image: url(assets/hk41thumbnail.jpg);
   width: 14vw; 
   height: 14vw; 
   top: 67vh;
@@ -424,7 +424,7 @@ a {
 }
 
 .planet-physart {
-  background-image: url(../assets/sableye.jpg);
+  background-image: url(assets/sableye.jpg);
   width: 11vw; 
   height: 11vw; 
   top: 43vh;
@@ -438,7 +438,7 @@ a {
 }
 
 .planet-oldart {
-  background-image: url(../assets/garden.jpg);
+  background-image: url(assets/garden.jpg);
   width: 9vw; 
   height: 9vw; 
   top: 74vh;
@@ -454,7 +454,7 @@ a {
 /* Light */
 
 #lightpage {
-  background-image: url(../assets/spacebg.png);
+  background-image: url(assets/spacebg.png);
   background-color: rgba(0, 0, 0, 0.5); 
   background-blend-mode: multiply;
 }
@@ -462,7 +462,7 @@ a {
 /* Renatus */
 
 #renatuspage {
-  background-image: url(../assets/renatusbg.png);
+  background-image: url(assets/renatusbg.png);
   color: black;
 }
 
@@ -611,7 +611,7 @@ transition: scale 0.3s ease-in-out;
 /* Blender */ 
 
 #blenderpage {
-  background-image: url(../assets/sprinklebg.png);
+  background-image: url(assets/sprinklebg.png);
   color: black;
 }
 
@@ -656,7 +656,7 @@ transition: scale 0.3s ease-in-out;
 }
 
 #digipage {
-  background-image: url(../assets/digiartbg.png); 
+  background-image: url(assets/digiartbg.png); 
 }
 
 .digiimg {
@@ -671,7 +671,7 @@ transition: scale 0.3s ease-in-out;
 /* Physical art */ 
 
 #phypage {
-  background-image: url(../assets/cavebg.png);
+  background-image: url(assets/cavebg.png);
 }
 
 .physical {
@@ -690,7 +690,7 @@ transition: scale 0.3s ease-in-out;
 /* Old art */ 
 
 #oldpage {
-  background-image: url(../assets/sketchbg.png);
+  background-image: url(assets/sketchbg.png);
   color: black;
 }
 
